@@ -9,7 +9,7 @@ __ http://martinfowler.com/eaaCatalog/unitOfWork.html
 """
 from __future__ import absolute_import
 import warnings
-from redis.client import StrictRedis, Redis, BasePipeline
+from redis.client import StrictRedis, Redis, Pipeline
 from .threadlocal import LocalDict
 from .types import Value, ByteString
 from .transaction import Transaction
